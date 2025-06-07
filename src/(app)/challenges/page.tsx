@@ -1,8 +1,8 @@
 export default function Challenges() {
     return (
         <div className="flex bg-white">
-            <div className="flex flex-col gap-4 py-[80px] px-6 w-full">
-                <p className="font-bold text-[22px] text-[#9b4890] text-center">IMPORTÂNCIA</p>
+            <div className="flex flex-col gap-4 py-[80px] px-12 w-full">
+                <p className="font-bold text-[22px] text-[#9b4890] text-center">DESAFIOS</p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div>
