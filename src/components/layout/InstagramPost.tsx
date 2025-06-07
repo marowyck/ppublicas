@@ -7,7 +7,7 @@ import { useState, useRef, useEffect } from 'react';
 type InstagramPostProps = {
     username: string;
     profileImage: string | StaticImageData;
-    postImage: string;
+    postImage: StaticImageData;
     caption: string;
     likes: number;
     lastComment?: {
