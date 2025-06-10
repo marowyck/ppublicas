@@ -82,8 +82,6 @@ export default function Examples() {
         const container = containerRef.current;
         if (!container) return;
 
-        const containerWidth = container.clientWidth;
-
         const card = container.querySelector('div > div');
         const cardWidth = card ? (card as HTMLElement).offsetWidth : 360;
 
